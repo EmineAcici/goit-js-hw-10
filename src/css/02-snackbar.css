@@ -1,0 +1,60 @@
+.snackbar-container {
+  width: 360px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: start;
+}
+.form label input[type='number'] {
+  width: 360px;
+  height: 40px;
+  border-color: #808080;
+  transition: border-color 250ms ease;
+}
+
+.form label input[type='number']:hover{
+    border-color: #000;
+}
+.form label input[type='number']:focus{
+    outline: none;
+    border-color: #4e75ff;
+}
+
+.form fieldset {
+  display: flex;
+  gap: 48px;
+  text-align: center;
+  align-items: center;
+  padding: 16px 48px 16px 28px;
+  width: 285px;
+  border-color: #808080;
+}
+.form fieldset:hover{
+    border-color: #000000;
+}
+.form fieldset legend {
+  text-align: start;
+}
+input[type = "radio"]{
+    accent-color: #4E75FF;
+}
+.form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  color: #fff;
+}
+
+.form button:hover{
+    background-color: #6C8CFF;
+}
